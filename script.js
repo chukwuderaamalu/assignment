@@ -1,7 +1,5 @@
 let button = document.getElementById('bbn')
 
-let p = document.getElementById('nap')
-
 let balloon  = document.getElementById('vvs')
 
 
@@ -13,7 +11,7 @@ let balloon  = document.getElementById('vvs')
 
 
 function sacVas () {
-    if(button.innerText = "increase") {
+    if(button.innerText === "increase") {
         balloon.style.backgroundColor = "green"
         balloon.style.width = "350px"
         balloon.style.height = "350px"
